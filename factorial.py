@@ -1,7 +1,8 @@
-num = int(input("Enter a number:"))
+def factorial_iterative(n):
 factorial=1
-for i in range(1,num+1):
+for i in range(1,n+1):
    factorial *=i
    
-print(f'factorial of {num} is {factorial}')
+n=int(input("Enter a number:"))
+print("Factorial (Iterative):",factorial_iterative(n))
 
